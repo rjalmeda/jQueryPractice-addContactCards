@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+div.wrapper {
+    padding: 30px;
+    width: 1200px;
+}
+    .addContactSection {
+        display:inline-block;
+        width: 240px;
+    }
+        input.inputBox, textarea {
+        border:1px solid black;
+        }
+
+    .contactList {
+        display: inline-block;
+        width: 770px;
+        height: 1000px;
+        vertical-align: top;
+    }
+    
+        .cardHolder {
+            width: 236px;
+            height: 156px;
+            perspective:700px;
+            margin: 10px;
+            display: inline-block;
+        }
+        .userCardFront, .userCardBack {
+            width: 200px;
+            height: 120px;
+            position: absolute;
+            backface-visibility: hidden;
+            padding: 15px;
+            border:3px solid black;
+        }
+        .userCard {
+            transition: 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+        .userCardFront {
+            z-index: 2;
+            transform: rotateY(0deg);
+            background: #ace;
+        }
+        .userCardBack {
+            transform: rotateY(180deg);
+            background: #eca;
+            word-wrap: break-word;
+        }
+            .cardHolder:hover .userCard{
+                transform: rotateY(180deg);
+            }
+            h3.userName {
+                text-align: center;
+            }
+            p.hoverFooter {
+                text-align: center;
+                margin-top: 30px
+            }

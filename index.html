@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Card</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="practice for Advanced jQuery selectors" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="addContactSection">
+            <form>
+            <label>First Name: <input class="inputBox fNameInput" name="fName" type="text" size="15" placeholder=" First name"></label><br>
+            <label>Last Name: <input class="inputBox lNameInput" name="lName" type="text" size="15" placeholder=" Last name"></label><br>
+            <label style="vertical-align:top">Description</label>
+            <textarea class="descBox textAreaInput" name="userDescription" size="25" maxlength="160" placeholder="User Description" rows="8" cols="30"></textarea>
+            <button type="submit">Add User</button>
+            </form>
+            
+        </div>
+        <div class="userList">
+            <!-- Sample card v1 will use for template
+            <div class="userCard">
+                <h3 altH3val="Description:">First name Last name</h3>
+                <p class="descText" altPVal="sample description entry">Click for description</p>
+            </div>
+            -->
+            <!-- Sample card v2 for template
+            <div class="userCard">
+                <div class="cardFront">
+                    <h3 class="cardH3">First name Last Name</h3>
+                    <p style="margin-top:20px; text-align:center;">Click for description</p>
+                </div>
+                <div class="cardBack">
+                    <p class="descText" style="display:inline-block">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p</p>
+                </div>
+            </div>
+            -->
+        </div>
+    </div>
+</body>
+</html>

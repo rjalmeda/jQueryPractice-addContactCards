@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.addContactSection {
+    display:inline-block;
+    width: 240px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.userList {
+    display: inline-block;
+    width: 820px;
+    height: 1000px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+input.inputBox, textarea {
+    border:1px solid black;
+}
+.userCard {
+    width: 240px;
+    height: 150px;
+    background: #eee;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.cardFront, .cardBack {
+    width: 240px;
+    height: 150px;
+    position: absolute;
+    vertical-align: top;
+}
+.cardFront {
+    
+}
+.cardBack {
+    word-wrap: break-word;
+}
+h3 {
+    padding-top:20px;
+    padding-left: 10px;
+}
+p.descText {
+    text-align: center;
+    padding:15px 10px 10px 10px;
+}
+div.cardBack {
+    word-wrap: break-word;
+}
